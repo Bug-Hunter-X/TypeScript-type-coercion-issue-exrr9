@@ -1,0 +1,3 @@
+# TypeScript Type Coercion Issue
+
+This repository demonstrates a common issue in TypeScript related to type coercion.  TypeScript's type system is powerful, but it doesn't prevent all runtime errors. In this example, a function expecting two numbers accepts a number and a string without raising a compile-time error, resulting in a runtime error. The solution shows how to enforce stricter type checking using type guards or other techniques to prevent this.
